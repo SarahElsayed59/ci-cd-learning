@@ -6,4 +6,8 @@ jobs:
     steps:
       - name: List files (before chechout)
         run: ls -la
+      - name: Checkout Code 
+        uses: actions/checkout@v4
+      - name: List Files (after Checkout )
+        run: ls -la
     
