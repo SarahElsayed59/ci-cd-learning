@@ -1,0 +1,10 @@
+name: Example
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: say hello
+        run: echo "hello CI"
+      - name: Show python version placeholder
+        run: echo "python version here"
